@@ -1,18 +1,18 @@
-//$(document).ready(function(){
-//   $('div').mouseenter(function(){
-//      $('div').fadeTo('fast',0.3); 
-//   });
-//
-//   $('div').mouseleave(function(){
-//       $('div').fadeTo('fast'.1);
-//   });
-//});
 
 $(document).ready(function(){
-    $('div').mouseenter(function(){
-        $('div').fadeTo('fast',1);
+    $('#fade-block').mouseenter(function(){
+        $('#fade-block').fadeTo('fast',0.5);
     });
-    $('div').mouseleave(function(){
-        $('div').fadeTo('fast', 0.5); 
+    $('#fade-block').mouseleave(function(){
+        $('#fade-block').fadeTo('fast', 1); 
     });
+    
+    $('#button').mouseenter(function(){
+        $('#button').fadeTo('fast',0.5);
+    });
+    $('#button').mouseleave(function(){
+        $('#button').fadeTo('fast', 1); 
+    });
+    
+   
 });
