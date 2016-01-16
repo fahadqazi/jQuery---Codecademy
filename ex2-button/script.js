@@ -25,5 +25,11 @@ $(document).ready(function(){
     $('#click-blue').click(function() {
         $('.blue').fadeOut('slow');
     });
+    
+    $('.red, .pink').fadeOut('slow', 0);
+    
+    $('.blue-box').click(function(){
+        $(this).fadeOut('slow');
+    })
 });
 

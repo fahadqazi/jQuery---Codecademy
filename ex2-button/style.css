@@ -33,3 +33,46 @@
 .blue{
     background-color: aqua;
 }
+
+.circle{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: orange;
+    border-radius: 100%;
+    
+}
+
+.pink{
+    background-color: pink;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue-box{
+    height:100px;
+    width:100px;
+    border-radius: 15%;
+    background-color: aquamarine;
+    float: left;
+    margin: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
