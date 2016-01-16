@@ -1,0 +1,17 @@
+
+div {
+    height:100px;
+    width:100px;
+    border-radius:5px;
+    margin: 5px;
+    float: left;
+    
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
