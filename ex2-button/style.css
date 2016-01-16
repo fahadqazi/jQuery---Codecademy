@@ -1,13 +1,11 @@
-/*
-div{
-    height: 60px;
-    width: 100px;
+.vanish{
+    height: 100px;
+    width:100px;
+    display: inline-block;
+    background-color: orange;
     border-radius: 15%;
-    background-color: azure;
-    text-align: center;
-    color: #83725c;
 }
-*/
+
 
 #button{
     height: 60px;
@@ -29,4 +27,9 @@ div{
     color: #ffffff;
     font-family: Verdana;
     float: left;
+    margin-right: 10px;
+}
+
+.blue{
+    background-color: aqua;
 }

@@ -8,11 +8,22 @@ $(document).ready(function(){
     });
     
     $('#button').mouseenter(function(){
-        $('#button').fadeTo('fast',0.5);
+        $('#button').fadeTo('fast',1);
     });
     $('#button').mouseleave(function(){
-        $('#button').fadeTo('fast', 1); 
+        $('#button').fadeTo('fast', 0.5); 
     });
     
-   
+//   $('click').click(function(){
+//        $('.vanish').fadeOut('slow');
+//   });  
+    
+   $('#click').click(function() {
+        $('.vanish').fadeOut('slow');
+    });
+    
+    $('#click-blue').click(function() {
+        $('.blue').fadeOut('slow');
+    });
 });
+
